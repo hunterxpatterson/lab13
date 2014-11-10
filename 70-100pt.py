@@ -64,7 +64,7 @@ class MyApp:
                 direction = - 10
             elif x1 < 0:
                 direction = 10
-            drawpad.move(circle1,direction,10)
+            drawpad.move(circle1,direction,0)
             global circle2
             x1, y1, x2, y2 = drawpad.coords(circle2)
             if x2 > drawpad.winfo_width(): 
